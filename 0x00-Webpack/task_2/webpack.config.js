@@ -7,7 +7,7 @@ module.exports = {
     },
     output: {
         path: path.resolve(__dirname, 'public'),
-        filename: '../public/bundle.js',
+        filename: 'bundle.js',
     },
     performance: {
         maxAssetSize: 1000000,
